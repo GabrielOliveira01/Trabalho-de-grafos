@@ -1,10 +1,23 @@
-# Trabalho de grafos #
+## Estudo de grafos com algoritmo Djistrack aplicados no problema do cotidiano ##
 
-### Algoritmo de Dijkstra ###
+### Grafo ###
 
-O algoritmo de Dijkstra, criado por Edsger Wybe Dijkstra, tem como finalidade estabelecer caminhos mais curtos de acordo com o estudo de rota realizado entre os vértices de um grafo de distância podendo ser orientados ou não. (Taha 2008)   
-Esse método efetua uma análise de percursos, somente com arcos de comprimento positivo, calculando e comparando a distância do nó de origem para todas as possibilidades disponíveis até obter um resultado. (Arenales et al 2007)  
-As arestas podem conter um elemento conhecido como peso que impactam nesse estudo, de forma que cada caminho terá valores distintos atribuídos e estes serão incluídos no cálculo modificando resultados. (Sedgewick 2002)  
-Há uma determinação nesse algoritmo que permite somente valores positivos em arestas já que negativos não apresentam exatidão. (Sedgewick 2002)  
-De acordo com Arenales et al (2007) o tempo de execução do algoritmo com m arestas e com n vértices pode ser apresentado por O([m+n]log n.   
-Os resultados encontrados representam uma sequência de esquinas adjacentes a serem percorridas. Obtemos pelo método proposto, qual é a melhor distância a ser percorrida.
+É um diagrama de conjuntos de dados composto por vértices e arestas, que estabelecem tipos de conexões.
+
+### Grafo no trânsito ###
+
+Grafos são usados como ferramentas de estudo e estratégia frequentemente no trânsito em diversas situações, onde as arestas são ruas, avenidas, etradas ou rodovias e os vértices representam as curvas, esquinas ou cruzamentos. Seu objetivo é proporcionar um bom desempenho do tráfego, com a menor taxa de congestionamentos e acidentes de trânsito.
+
+### Situação problema ###
+
+Devido à nova gestão da cidade de Barueri é estabelecido um evento nomeado como prefeito no seu bairro para que a população se aproxime dos seus líderes, na divulgação de planejamento, propostas e sugestões de moradores. Esse evento ocorrerá na Avenida Capitão Francisco César localizada no bairro Engenho Novo, cidade Barueri-SP, que será interditada do número 693 ao 856 para acomodar a população e políticos. Uma aluna ao sair da escola EMEF Armando Cavaza, localizada na rua São Paulo nº 706, com seu veículo em direção a sua casa situada na rua Otávio Calegari nº140, se depara com essa situação, com isso deverá ser traçada uma rota alternativa para que esta chegue em seu destino.
+
+### Ação ###
+
+Agentes de transito devem reestabelecer outras rotas para circulação. 
+
+Para o desenvolvimento dessa atividade o estudo de grafos e o algoritmo de Djistrack, foi fundamental, pois estes em conjunto realizam diversas análises e proporcionam a melhor alternativa para a aluna chegar em sua casa.
+
+Retirado do google Maps, abaixo é exibido o mapa original, da região em que ocorrerá o evento.
+
+![picture alt](imagens/fotos.png "Title is optional")
