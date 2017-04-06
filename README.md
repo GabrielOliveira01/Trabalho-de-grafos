@@ -28,6 +28,13 @@ Não contar com uma alternativa favorecida pelo uso desses recursos tem como con
 
 O mapa abaixo apresenta o esboço do trecho original que se modificará, com suas devidas sinalizações indicando por onde trafegar. A região marcada de laranja é a Avenida Capitão Francisco César cercado de outras ruas com a indicação de suas vias.
 
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/2.png)
+
 No esboço e mapa a seguir cor azul claro indica o percurso que deve ser decorrido por aqueles que sigam para regiões não interditadas sentido ao bairro Parque Santana pertencente da cidade de Santana de Parnaíba. Já a cor azul escuro se refere ao caminho para seguir rumo ao bairro Cruz Preta. O sinalizado em vermelho é o trecho interditado, o desvio só ocorrerá nesse intervalo, o restante da Avenida Capitão Francisco César deve ser percorrida normalmente como destacado em laranja no esboço. 
 
 ![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/Esboco.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/4.png)
+
+Para resolução do problema foi aplicado o estudo de grafos gerando um esquema mais detalhado com indicações matemáticas de vértices (esquinas), arestas (ruas), peso (velocidade), assim como o ponto de partida e destino, obtém também o auxilio do algoritmo de Djistrack onde ambos conjuntamente recalcularão um novo caminho para atingir o objetivo da estudante.
+
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/5.png)
