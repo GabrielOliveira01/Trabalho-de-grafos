@@ -63,7 +63,7 @@ A primeira tem como função a conversão de variáveis privadas em públicas, a
 
 A última classe, exibida a seguir, inicia o Algoritmo. 
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/fotos/8.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/8.png)
 
 Para compreensão do algoritmo é necessário relacionar que os vértices representam as esquinas e as arestas são as ruas.
 
@@ -73,7 +73,7 @@ A lógica ao percorrer as esquinas são etiquetadas e salvas, para realização 
 
 As alternativas verificadas e determinadas como adequadas, transformam-se em um caminho visitado, sendo salvo em memória o nome da aresta.
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/fotos/9.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/9.png)
 
 O processo se repete até que é encontrado o menor percurso.
 
