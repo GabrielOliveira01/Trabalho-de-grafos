@@ -20,6 +20,8 @@ Para o desenvolvimento dessa atividade o estudo de grafos e o algoritmo de Djist
 
 Retirado do google Maps, abaixo é exibido o mapa original, da região em que ocorrerá o evento.
 
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/1.png)
+
 O grafo e o algoritmo de Djistrack irão auxiliar nessa situação que pode ocorrer no cotidiano das pessoas, através da viabilização de alternativas entre as ligações das ruas, de acordo com as leis de transito, cálculo com os parâmetros de velocidade (peso) estabelecidos e comparação com desses resultantes.
 
 Não contar com uma alternativa favorecida pelo uso desses recursos tem como consequência o prejuízo para cidade em sérios problemas no trânsito, desordem e poluição.
