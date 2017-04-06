@@ -20,4 +20,4 @@ Para o desenvolvimento dessa atividade o estudo de grafos e o algoritmo de Djist
 
 Retirado do google Maps, abaixo é exibido o mapa original, da região em que ocorrerá o evento.
 
-![picture alt](imagens/fotos.png "Title is optional")
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/Esboco.png)
