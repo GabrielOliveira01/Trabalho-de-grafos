@@ -20,7 +20,7 @@ Para o desenvolvimento dessa atividade o estudo de grafos e o algoritmo de Djist
 
 Retirado do google Maps, abaixo é exibido o mapa original, da região em que ocorrerá o evento.
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/1.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/1.png)
 
 O grafo e o algoritmo de Djistrack irão auxiliar nessa situação que pode ocorrer no cotidiano das pessoas, através da viabilização de alternativas entre as ligações das ruas, de acordo com as leis de transito, cálculo com os parâmetros de velocidade (peso) estabelecidos e comparação com desses resultantes.
 
@@ -28,16 +28,16 @@ Não contar com uma alternativa favorecida pelo uso desses recursos tem como con
 
 O mapa abaixo apresenta o esboço do trecho original que se modificará, com suas devidas sinalizações indicando por onde trafegar. A região marcada de laranja é a Avenida Capitão Francisco César cercado de outras ruas com a indicação de suas vias.
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/2.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/2.png)
 
 No esboço e mapa a seguir cor azul claro indica o percurso que deve ser decorrido por aqueles que sigam para regiões não interditadas sentido ao bairro Parque Santana pertencente da cidade de Santana de Parnaíba. Já a cor azul escuro se refere ao caminho para seguir rumo ao bairro Cruz Preta. O sinalizado em vermelho é o trecho interditado, o desvio só ocorrerá nesse intervalo, o restante da Avenida Capitão Francisco César deve ser percorrida normalmente como destacado em laranja no esboço. 
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/Esboco.png)
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/4.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/Esboco.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/4.png)
 
 Para resolução do problema foi aplicado o estudo de grafos gerando um esquema mais detalhado com indicações matemáticas de vértices (esquinas), arestas (ruas), peso (velocidade), assim como o ponto de partida e destino, obtém também o auxilio do algoritmo de Djistrack onde ambos conjuntamente recalcularão um novo caminho para atingir o objetivo da estudante.
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/5.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/5.png)
 
 ### Algoritmo de Dijstrack ###
 
@@ -53,17 +53,17 @@ De acordo com Arenales, 2007, o tempo de execução do algoritmo de Dijkstra com
 
 No código abaixo está contido o inicio da classe com as variáveis privadas que serão utilizadas, para realizar as manipulações, comparações, definições de posições e resultados lógicos.
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/6.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/6.png)
 
 Na imagem abaixo são apresentadas três classes.
 
 A primeira tem como função a conversão de variáveis privadas em públicas, a segunda classe é formada por um acumulador que recolhe e armazena em si os valores das arestas (ruas) calculadas.
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/7.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/7.png)
 
 A última classe, exibida a seguir, inicia o Algoritmo. 
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/8.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/fotos/8.png)
 
 Para compreensão do algoritmo é necessário relacionar que os vértices representam as esquinas e as arestas são as ruas.
 
@@ -73,13 +73,13 @@ A lógica ao percorrer as esquinas são etiquetadas e salvas, para realização 
 
 As alternativas verificadas e determinadas como adequadas, transformam-se em um caminho visitado, sendo salvo em memória o nome da aresta.
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/9.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/fotos/9.png)
 
 O processo se repete até que é encontrado o menor percurso.
 
 Conforme são realizadas alterações das vias no decorrer dos anos, o algoritmo se adapta recalculando e comparando já que na presença de um caminho mais curto, este é selecionado e exibido em uma próxima pesquisa.
 
-![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/11.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/11.png)
 
 Ao final de cada consulta o resultado do caminho inferior é exibido juntamente com os vértices que devem ser seguidos no percurso, como destacado acima em verde. 
 
