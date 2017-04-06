@@ -20,4 +20,12 @@ Para o desenvolvimento dessa atividade o estudo de grafos e o algoritmo de Djist
 
 Retirado do google Maps, abaixo é exibido o mapa original, da região em que ocorrerá o evento.
 
+O grafo e o algoritmo de Djistrack irão auxiliar nessa situação que pode ocorrer no cotidiano das pessoas, através da viabilização de alternativas entre as ligações das ruas, de acordo com as leis de transito, cálculo com os parâmetros de velocidade (peso) estabelecidos e comparação com desses resultantes.
+
+Não contar com uma alternativa favorecida pelo uso desses recursos tem como consequência o prejuízo para cidade em sérios problemas no trânsito, desordem e poluição.
+
+O mapa abaixo apresenta o esboço do trecho original que se modificará, com suas devidas sinalizações indicando por onde trafegar. A região marcada de laranja é a Avenida Capitão Francisco César cercado de outras ruas com a indicação de suas vias.
+
+No esboço e mapa a seguir cor azul claro indica o percurso que deve ser decorrido por aqueles que sigam para regiões não interditadas sentido ao bairro Parque Santana pertencente da cidade de Santana de Parnaíba. Já a cor azul escuro se refere ao caminho para seguir rumo ao bairro Cruz Preta. O sinalizado em vermelho é o trecho interditado, o desvio só ocorrerá nesse intervalo, o restante da Avenida Capitão Francisco César deve ser percorrida normalmente como destacado em laranja no esboço. 
+
 ![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/Esboco.png)
