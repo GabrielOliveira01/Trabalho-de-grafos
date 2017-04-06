@@ -74,6 +74,7 @@ A lógica ao percorrer as esquinas são etiquetadas e salvas, para realização 
 As alternativas verificadas e determinadas como adequadas, transformam-se em um caminho visitado, sendo salvo em memória o nome da aresta.
 
 ![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/9.png)
+![picture alt](https://github.com/GabrielOliveira01/Trabalho-de-grafos/blob/master/fotos/10.png)
 
 O processo se repete até que é encontrado o menor percurso.
 
